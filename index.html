@@ -52,11 +52,22 @@ body{
 button{
   cursor:pointer; 
 }
-  .radio-controls-top button{
-  width: 45px;
-  height: 45px;
-  font-size: 20px;
+.radio-controls-top button {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #fff !important;
+  font-size: 12px !important;
+  cursor: pointer !important;
+  opacity: 0.85 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
 
+.radio-controls-top button:hover {
+  opacity: 1 !important;
 }
   .footer{
   background:#2b2b2b; /* cinza escuro */
